@@ -66,7 +66,7 @@
     </nav>
 
     <div class="wrap">
-        <h1>⚔️ CIT STUDENT PORTAL ⚔️</h1>
+        <h1>⚔️ STUDENT PORTAL ⚔️</h1>
         <p>
             Welcome, Chief! This Student Information Page was built using the
             LavaLust PHP Framework for the Web Systems and Technologies

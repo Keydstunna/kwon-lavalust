@@ -13,7 +13,7 @@ class StudentController extends Controller
     }
     $_SESSION['student_access'] = true;
 
-        $data['page_title'] = 'CIT Student Portal - Home';
+        $data['page_title'] = 'Student Portal - Home';
         $this->call->view('student_home', $data);
     }
 
@@ -32,7 +32,7 @@ class StudentController extends Controller
             'barangay'   => 'Barangay Masipit, Calapan City, Oriental Mindoro',
         ];
 
-        $data['page_title'] = 'CIT Student Portal - Profile';
+        $data['page_title'] = 'Student Portal - Profile';
         $data['student']    = $student;
         $this->call->view('student_profile', $data);
     }
