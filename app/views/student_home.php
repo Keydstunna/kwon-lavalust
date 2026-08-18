@@ -95,7 +95,7 @@
   <div class="wrap">
     <h1>⚔️ STUDENT PORTAL ⚔️</h1>
     <p>
-      Welcome, Chief! Town Hall Level: Sophomore Grinder. Main troop
+      Welcome, Chief! Town Hall Level: Junior Grinder. Main troop
       composition: coffee, late-night debugging, and a suspicious amount
       of tutorial tabs open at once.
     </p>
