@@ -11,7 +11,7 @@ class StudentController extends Controller
             if (session_status() === PHP_SESSION_NONE) {
         session_start();
     }
-    // $_SESSION['student_access'] = true;
+    $_SESSION['student_access'] = true;
 
         $data['page_title'] = 'Student Portal - Home';
         $this->call->view('student_home', $data);
