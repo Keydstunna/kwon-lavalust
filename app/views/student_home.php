@@ -60,19 +60,20 @@
     margin: 0 auto 14px auto;
   }
 
-  h1 {
+h1 {
     font-family: 'Lilita One', 'Trebuchet MS', sans-serif;
     font-size: 2.3em;
     letter-spacing: 1px;
-    -webkit-text-stroke: 2px #5a3a10;
-    color: #ffd25c;
-    background: linear-gradient(180deg, #fff6d0 0%, #ffd25c 45%, #e8a626 100%);
+    color: #ffe08a;
+    background: linear-gradient(180deg, #ffffff 0%, #fff3b0 20%, #ffcb3d 55%, #e8992a 100%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1.5px #6b4212;
+    paint-order: stroke fill;
     text-shadow:
-      3px 3px 0 #5a3a10,
-      4px 4px 8px rgba(0,0,0,0.6);
+      0 3px 0 #6b4212,
+      0 5px 10px rgba(0,0,0,0.7);
     margin-bottom: 18px;
   }
 
