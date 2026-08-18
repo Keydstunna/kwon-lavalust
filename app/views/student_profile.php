@@ -185,7 +185,7 @@
     </div>
 
     <div class="section">
-      <h2>🛡️ Student Information</h2>
+      <h2>Student Information</h2>
       <table>
         <tr><td class="label">Student ID</td><td><?= $student['student_id'] ?></td></tr>
         <tr><td class="label">Course</td><td><?= $student['course'] ?></td></tr>
@@ -217,7 +217,7 @@
 
     <div class="section">
       <div class="quote-box">
-        "You can't win at everything, but you can smile."
+        "You can't win at everything, but you can try."
         <span class="quote-sub">— Eraserheads</span>
       </div>
     </div>

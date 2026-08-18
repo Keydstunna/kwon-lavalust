@@ -29,7 +29,7 @@ class StudentController extends Controller
             'section'     => '3-F5',
             'email'       => 'kierignacio02@gmail.com',
             'barangay'    => 'Barangay Masipit, Calapan City, Oriental Mindoro',
-            'description' => 'Sophomore-energy builder still upgrading skills one error message at a time. Into networking, embedded systems, and full-stack development.',
+            'description' => 'JuniorS-energy builder still upgrading skills one error message at a time. Into networking, embedded systems, and full-stack development.',
             'hobbies'     => 'Programming, sleeping, playing online games, gardening, watching movies and reading manga',
             'github'      => 'https://github.com/Keydstunna',
             'facebook'    => 'https://www.facebook.com/share/1DWP6rnxw7/',
