@@ -17,12 +17,6 @@
     background-color: #0a0e2a;
     background-image: repeating-conic-gradient(#141a44 0% 25%, #10143a 0% 50%);
     background-size: 60px 60px;
-    animation: bgShift 18s linear infinite;
-  }
-
-  @keyframes bgShift {
-    0%   { background-position: 0 0; }
-    100% { background-position: 600px 600px; }
   }
 
   nav {
@@ -94,15 +88,19 @@
     margin-top: 14px;
     flex-wrap: wrap;
   }
-  .name-row h1 {
+.name-row h1 {
     font-family: 'Lilita One', 'Trebuchet MS', sans-serif;
-    font-size: 1.7em;
-    background: linear-gradient(90deg, #f7c948, #fff8d6, #f7c948);
-    background-size: 200% auto;
+    font-size: 1.8em;
+    letter-spacing: 1px;
+    -webkit-text-stroke: 1.5px #5a3a10;
+    color: #ffd25c;
+    background: linear-gradient(180deg, #fff6d0 0%, #ffd25c 45%, #e8a626 100%);
     -webkit-background-clip: text;
     background-clip: text;
-    color: transparent;
-    animation: shine 3s linear infinite;
+    -webkit-text-fill-color: transparent;
+    text-shadow:
+      2px 2px 0 #5a3a10,
+      3px 3px 6px rgba(0,0,0,0.6);
   }
   .name-row svg { width: 22px; height: 22px; fill: #f7c948; }
   @keyframes shine {
@@ -121,12 +119,14 @@
   }
   .section:hover { box-shadow: 0 0 25px rgba(247,201,72,0.4); }
 
-  .section h2 {
+.section h2 {
     font-family: 'Lilita One', 'Trebuchet MS', sans-serif;
-    color: #f7c948;
+    letter-spacing: 0.5px;
+    color: #ffd25c;
+    -webkit-text-stroke: 1px #5a3a10;
+    text-shadow: 1.5px 1.5px 0 #5a3a10;
     font-size: 1.15em;
     margin-bottom: 12px;
-    text-shadow: 1px 1px 0 #000;
     display: flex;
     align-items: center;
     gap: 8px;

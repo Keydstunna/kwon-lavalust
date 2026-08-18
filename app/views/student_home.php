@@ -17,12 +17,6 @@
     background-color: #0a0e2a;
     background-image: repeating-conic-gradient(#141a44 0% 25%, #10143a 0% 50%);
     background-size: 60px 60px;
-    animation: bgShift 18s linear infinite;
-  }
-
-  @keyframes bgShift {
-    0%   { background-position: 0 0; }
-    100% { background-position: 600px 600px; }
   }
 
   nav {
@@ -60,22 +54,26 @@
     text-align: center;
   }
 
-  h1 {
-    font-family: 'Lilita One', 'Trebuchet MS', sans-serif;
-    font-size: 2.1em;
-    background: linear-gradient(90deg, #f7c948, #fff8d6, #f7c948);
-    background-size: 200% auto;
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-    animation: shine 3s linear infinite;
-    letter-spacing: 1px;
-    margin-bottom: 16px;
+  .crest {
+    width: 70px;
+    height: 78px;
+    margin: 0 auto 14px auto;
   }
 
-  @keyframes shine {
-    0%   { background-position: 0% center; }
-    100% { background-position: 200% center; }
+  h1 {
+    font-family: 'Lilita One', 'Trebuchet MS', sans-serif;
+    font-size: 2.3em;
+    letter-spacing: 1px;
+    -webkit-text-stroke: 2px #5a3a10;
+    color: #ffd25c;
+    background: linear-gradient(180deg, #fff6d0 0%, #ffd25c 45%, #e8a626 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow:
+      3px 3px 0 #5a3a10,
+      4px 4px 8px rgba(0,0,0,0.6);
+    margin-bottom: 18px;
   }
 
   p { line-height: 1.7; color: #dbe4ff; margin-bottom: 10px; }
@@ -98,7 +96,7 @@
   @media (max-width: 480px) {
     body { padding: 20px 10px; }
     .wrap { padding: 20px; }
-    h1 { font-size: 1.5em; }
+    h1 { font-size: 1.6em; }
     nav { padding: 12px 16px; justify-content: center; }
   }
 </style>
@@ -116,6 +114,16 @@
   </nav>
 
   <div class="wrap">
+    <svg class="crest" viewBox="0 0 60 68">
+      <path d="M30 2 6 10v18c0 16 10 30 24 38 14-8 24-22 24-38V10z"
+            fill="#2d4373" stroke="#f7c948" stroke-width="3"/>
+      <path d="M18 24 22 16 27 22 30 14 33 22 38 16 42 24 40 34H20z"
+            fill="#f7c948" stroke="#5a3a10" stroke-width="1"/>
+      <circle cx="22" cy="16" r="2" fill="#f7c948"/>
+      <circle cx="30" cy="14" r="2" fill="#f7c948"/>
+      <circle cx="38" cy="16" r="2" fill="#f7c948"/>
+    </svg>
+
     <h1>STUDENT PORTAL</h1>
     <p>
       Welcome, Chief! Town Hall Level: Junior Grinder. Main troop
